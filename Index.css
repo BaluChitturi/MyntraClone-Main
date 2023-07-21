@@ -396,3 +396,16 @@ ul {
     text-align: center;
   }
 }
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
