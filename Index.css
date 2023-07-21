@@ -112,6 +112,9 @@
 #radio5:checked~.navigation-auto .auto-btn5 {
   background: gray;
 }
+
+/* Body Part Css starts */
+
 .text-banner-title {
   text-transform: uppercase;
   color: #3e4152;
@@ -145,6 +148,11 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 40px;
+  /* grid-row-gap: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px; */
+
   width: 95%;
   margin: auto;
 }
@@ -155,6 +163,10 @@
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-gap: 20px;
+  /* grid-row-gap: 0; */
+  /* margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px; */
   width: 98%;
   margin: auto;
 }
@@ -168,6 +180,8 @@
 .img-link-container-10 {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
+  /* grid-gap: 2px; */
+  /* grid-row-gap: 0; */
   gap: 10px;
   width: 98%;
   margin: auto;
@@ -184,6 +198,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
+/* body {
+            line-height: 1.5;
+            font-family: "Poppins", sans-serif;
+          }
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          } */
 .container {
   max-width: 75%;
   margin: auto;
